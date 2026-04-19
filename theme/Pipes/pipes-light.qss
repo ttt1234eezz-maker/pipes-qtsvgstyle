@@ -138,3 +138,16 @@ QRadioButton::indicator:checked {
     border-radius: 5px;
     background: #9aa5c7;
 }
+
+QTabBar::tab {
+    background-color: transparent;
+    color: inherit;
+    padding: 7px 12px;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+QTabBar::tab:selected {
+    background-color: #9aa5c7;
+    color: #1f2535;
+}
