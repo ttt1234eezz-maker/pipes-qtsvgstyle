@@ -1,0 +1,130 @@
+/* Pipes theme for QtSvgStyle widgets */
+
+QWidget {
+    background-color: #090b14;
+    color: #f0f1f5;
+    selection-background-color: #6d7390;
+    selection-color: #ffffff;
+}
+
+QMainWindow,
+QDialog {
+    background-color: #090b14;
+}
+
+QMenuBar,
+QToolBar,
+QStatusBar,
+QHeaderView::section {
+    background-color: #545a70;
+    color: #f0f1f5;
+    border: none;
+}
+
+QMenuBar::item,
+QMenu::item {
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+QMenuBar::item:selected,
+QMenu::item:selected {
+    background-color: #6d7390;
+}
+
+QPushButton,
+QToolButton,
+QCommandLinkButton {
+    background-color: #545a70;
+    color: #f3f4f8;
+    border: 1px solid #6d7390;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover,
+QToolButton:hover,
+QCommandLinkButton:hover {
+    background-color: #626985;
+}
+
+QPushButton:pressed,
+QToolButton:pressed,
+QCommandLinkButton:pressed {
+    background-color: #49506a;
+}
+
+QPushButton:disabled,
+QToolButton:disabled,
+QCommandLinkButton:disabled {
+    background-color: #2f3446;
+    color: #8f94a3;
+    border-color: #3a4053;
+}
+
+QLineEdit,
+QTextEdit,
+QPlainTextEdit,
+QSpinBox,
+QDoubleSpinBox,
+QComboBox {
+    background-color: #141826;
+    color: #f0f1f5;
+    border: 1px solid #545a70;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+QLineEdit:focus,
+QTextEdit:focus,
+QPlainTextEdit:focus,
+QSpinBox:focus,
+QDoubleSpinBox:focus,
+QComboBox:focus {
+    border: 1px solid #7d84a4;
+}
+
+QProgressBar {
+    background-color: #1b2030;
+    border: 1px solid #3f455c;
+    border-radius: 8px;
+    text-align: center;
+    color: #f0f1f5;
+    min-height: 16px;
+}
+
+QProgressBar::chunk {
+    background-color: #6d7390;
+    border-radius: 7px;
+}
+
+QSlider::groove:horizontal {
+    height: 6px;
+    border-radius: 3px;
+    background: #2b3042;
+}
+
+QSlider::handle:horizontal {
+    width: 14px;
+    margin: -5px 0;
+    border-radius: 7px;
+    background: #a2a9bf;
+}
+
+QCheckBox::indicator,
+QRadioButton::indicator {
+    width: 14px;
+    height: 14px;
+}
+
+QCheckBox::indicator:unchecked,
+QRadioButton::indicator:unchecked {
+    border: 1px solid #7d84a4;
+    background: #141826;
+}
+
+QCheckBox::indicator:checked,
+QRadioButton::indicator:checked {
+    border: 1px solid #7d84a4;
+    background: #6d7390;
+}
