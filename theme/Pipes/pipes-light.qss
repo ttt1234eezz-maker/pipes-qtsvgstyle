@@ -151,3 +151,12 @@ QTabBar::tab:selected {
     background-color: #9aa5c7;
     color: #1f2535;
 }
+
+QTabBar::tab:hover {
+    background-color: rgba(154, 165, 199, 0.55);
+}
+
+QTabBar::tab:disabled {
+    background-color: #dde2ef;
+    color: #8d93a6;
+}
