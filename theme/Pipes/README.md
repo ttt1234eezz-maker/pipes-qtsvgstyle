@@ -1,8 +1,13 @@
-# Pipes QtSvgStyle theme
+# Pipes QtSvgStyle themes
 
-A QtSvgStyle-compatible dark theme focused on reusable widgets.
+QtSvgStyle-compatible rounded themes focused on reusable widgets.
 
-## Included styling
+## Included themes
+
+- `pipes.qss` (rounded dark)
+- `pipes-light.qss` (rounded light)
+
+Both themes style:
 
 - Buttons (`QPushButton`, `QToolButton`, `QCommandLinkButton`)
 - Inputs (`QLineEdit`, `QTextEdit`, `QPlainTextEdit`, `QSpinBox`, `QComboBox`)
@@ -10,14 +15,16 @@ A QtSvgStyle-compatible dark theme focused on reusable widgets.
 - Progress bars (`QProgressBar`)
 - Sliders (`QSlider`)
 - Check/radio indicators (`QCheckBox`, `QRadioButton`)
+- Tabs (`QTabBar`)
 
-## Palette
+## Palette overview
 
-- Background: `#090b14`
-- Chrome and primary controls: `#545a70`
-- Active/accent: `#6d7390`
-- Foreground text: `#f0f1f5`
+- Dark base: `#090b14` with chrome `#545a70`
+- Light base: `#f3f5fb` with chrome `#c2c8da`
 
 ## Usage
 
-Load `theme/Pipes/pipes.qss` through QtSvgStyle.
+Load one of these through QtSvgStyle:
+
+- `theme/Pipes/pipes.qss`
+- `theme/Pipes/pipes-light.qss`
