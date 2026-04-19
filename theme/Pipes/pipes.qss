@@ -1,4 +1,4 @@
-/* Pipes theme for QtSvgStyle widgets */
+/* Pipes Rounded Dark theme for QtSvgStyle widgets */
 
 QWidget {
     background-color: #090b14;
@@ -19,12 +19,20 @@ QHeaderView::section {
     background-color: #545a70;
     color: #f0f1f5;
     border: none;
+    border-radius: 10px;
+}
+
+QMenu {
+    background-color: #111524;
+    border: 1px solid #4c536b;
+    border-radius: 12px;
+    padding: 6px;
 }
 
 QMenuBar::item,
 QMenu::item {
-    padding: 6px 10px;
-    border-radius: 6px;
+    padding: 7px 12px;
+    border-radius: 8px;
 }
 
 QMenuBar::item:selected,
@@ -38,8 +46,8 @@ QCommandLinkButton {
     background-color: #545a70;
     color: #f3f4f8;
     border: 1px solid #6d7390;
-    border-radius: 8px;
-    padding: 6px 12px;
+    border-radius: 12px;
+    padding: 7px 14px;
 }
 
 QPushButton:hover,
@@ -71,8 +79,8 @@ QComboBox {
     background-color: #141826;
     color: #f0f1f5;
     border: 1px solid #545a70;
-    border-radius: 6px;
-    padding: 4px 8px;
+    border-radius: 10px;
+    padding: 6px 10px;
 }
 
 QLineEdit:focus,
@@ -87,44 +95,46 @@ QComboBox:focus {
 QProgressBar {
     background-color: #1b2030;
     border: 1px solid #3f455c;
-    border-radius: 8px;
+    border-radius: 10px;
     text-align: center;
     color: #f0f1f5;
-    min-height: 16px;
+    min-height: 18px;
 }
 
 QProgressBar::chunk {
     background-color: #6d7390;
-    border-radius: 7px;
+    border-radius: 9px;
 }
 
 QSlider::groove:horizontal {
-    height: 6px;
-    border-radius: 3px;
+    height: 8px;
+    border-radius: 4px;
     background: #2b3042;
 }
 
 QSlider::handle:horizontal {
-    width: 14px;
+    width: 16px;
     margin: -5px 0;
-    border-radius: 7px;
+    border-radius: 8px;
     background: #a2a9bf;
 }
 
 QCheckBox::indicator,
 QRadioButton::indicator {
-    width: 14px;
-    height: 14px;
+    width: 16px;
+    height: 16px;
 }
 
 QCheckBox::indicator:unchecked,
 QRadioButton::indicator:unchecked {
     border: 1px solid #7d84a4;
+    border-radius: 5px;
     background: #141826;
 }
 
 QCheckBox::indicator:checked,
 QRadioButton::indicator:checked {
     border: 1px solid #7d84a4;
+    border-radius: 5px;
     background: #6d7390;
 }
