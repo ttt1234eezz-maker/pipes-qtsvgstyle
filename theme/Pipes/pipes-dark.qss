@@ -144,7 +144,7 @@ QTabWidget::pane {
     background-color: #1b2030;
     border: 1px solid #4a5168;
     border-radius: 10px;
-    margin-top: -1px;
+    top: -1px;
 }
 
 QTabBar::tab {
@@ -211,4 +211,22 @@ QScrollBar::add-page,
 QScrollBar::sub-page {
     background: transparent;
     border: none;
+}
+
+
+QDockWidget {
+    background-color: #111524;
+    border: 1px solid #4a5168;
+    border-radius: 10px;
+    titlebar-close-icon: none;
+    titlebar-normal-icon: none;
+}
+
+QDockWidget::title {
+    text-align: left;
+    background-color: #545a70;
+    color: #f0f1f5;
+    padding: 6px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
