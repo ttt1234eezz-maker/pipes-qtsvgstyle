@@ -144,7 +144,7 @@ QTabWidget::pane {
     background-color: #1b2030;
     border: 1px solid #4a5168;
     border-radius: 10px;
-    top: -1px;
+    margin-top: -1px;
 }
 
 QTabBar::tab {
