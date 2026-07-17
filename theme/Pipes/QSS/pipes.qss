@@ -1,4 +1,4 @@
-/* Pipes Rounded Light theme for QtSvgStyle widgets */
+/* Pipes Rounded Light theme */
 
 QWidget {
     background-color: #f3f5fb;
