@@ -1,4 +1,4 @@
-/* Pipes Rounded Dark theme for QtSvgStyle widgets */
+/* Pipes Rounded Dark theme */
 
 QWidget {
     background-color: #090b14;
@@ -223,7 +223,6 @@ QDockWidget {
 }
 
 QDockWidget::title {
-    text-align: left;
     background-color: #545a70;
     color: #f0f1f5;
     padding: 6px 10px;
