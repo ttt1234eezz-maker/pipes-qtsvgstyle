@@ -92,6 +92,28 @@ QComboBox:focus {
     border: 1px solid #8592b6;
 }
 
+QFrame#DolphinViewActionHandler, 
+KTextEditor--View,
+KTextEditor--Document {
+    background-color: #f3f5fb;
+    color: #1f2535;
+    border: none;
+}
+
+KTextEditor--SearchAndReplaceSpace,
+QFrame[class="KTextEditor::SearchAndReplaceWidget"] {
+    background-color: #c2c8da;
+    border-top: 1px solid #a0abc8;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 6px;
+}
+
+KTextEditor--ViewInternal {
+    background-color: #f3f5fb;
+    border-right: 1px solid #d3d8e8;
+}
+
 QProgressBar {
     background-color: #e1e5f0;
     border: 1px solid #bac1d5;
